@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/widget_background">
+
+    <!-- ImageView to refresh the widget, positioned on the left -->
+    <ImageView
+        android:id="@+id/button_refresh"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_refresh"
+        android:contentDescription="Refresh"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- TextView to display the plate count, positioned to the right of the refresh button -->
+    <TextView
+        android:id="@+id/text_plate_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/240"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@id/button_refresh"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:gravity="center" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "959571234646",
+    "project_id": "wwpt-52e3c",
+    "storage_bucket": "wwpt-52e3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959571234646:android:646e51b86b97a2806b10f7",
+        "android_client_info": {
+          "package_name": "com.example.wwptm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoU8H4vo3ju-U_GEkj3KtoALptwb_TF0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
